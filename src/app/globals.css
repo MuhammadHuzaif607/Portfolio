@@ -1972,6 +1972,21 @@ button:focus {
 .embla__next {
   right: 70px;
 }
+/* GradientCursor.css */
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(135deg, #ff6ec4, #7873f5); /* Gradient */
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease-out, width 0.1s ease-out, height 0.1s ease-out;
+}
+
 @media (max-width: 575px) {
   .nav-btn {
     top: 25%;

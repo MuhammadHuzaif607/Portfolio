@@ -2,7 +2,6 @@
 'use client';
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
-import styles from '@/app/CustomCursor.module.css'; // Optional: for styling
 
 const CustomCursor = () => {
   const cursorRef = useRef(null);
@@ -28,7 +27,7 @@ const CustomCursor = () => {
     };
   }, []);
 
-  return <div ref={cursorRef} className={styles.cursor}></div>;
+  return <div ref={cursorRef} className="cursor"></div>;
 };
 
 export default CustomCursor;

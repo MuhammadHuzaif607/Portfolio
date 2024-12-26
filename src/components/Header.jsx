@@ -6,6 +6,20 @@ import { useState } from 'react';
 const Header = () => {
   const [isToggle, setIsToggle] = useState(false);
   const [isMobileMenu, setIsMobileMenu] = useState(false); // To open mobile menu
+  const links = [
+    {
+      title: 'About',
+      path: '#',
+    },
+    {
+      title: 'Services',
+      path: '#services',
+    },
+    {
+      title: 'Portfolio',
+      path: '#portfolio',
+    },
+  ];
 
   //   For desktop function
   const ToggleHandler = () => {
@@ -41,15 +55,11 @@ const Header = () => {
             <span></span>
           </button>
           <ul className={'nav-list ' + (isMobileMenu ? 'show' : '')}>
-            <li className="nav-list-item">
-              <Link href="/#">About</Link>
-            </li>
-            <li className="nav-list-item">
-              <Link href="/#services">Services</Link>
-            </li>
-            <li className="nav-list-item">
-              <Link href="/#portfolio">Portfolio</Link>
-            </li>
+            {links.map((item, index) => (
+              <li className="nav-list-item" key={index}>
+                <Link href={item.path}>{item.title}</Link>
+              </li>
+            ))}
           </ul>
         </nav>
         <div className="header-logo">
