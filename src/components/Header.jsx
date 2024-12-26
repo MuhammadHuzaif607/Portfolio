@@ -29,8 +29,7 @@ const Header = () => {
             <h6 id="phone" className="mb-0">
               Phone:
             </h6>
-            <p>+123 456 789 01</p>
-            <p>+123 456 789 02</p>
+            <p>+923122427270</p>
             <div className="mt-3">
               <h6 id="email" className="mb-0">
                 Email:

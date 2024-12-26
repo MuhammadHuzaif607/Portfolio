@@ -1,9 +1,6 @@
-'use client';
-import Link from 'next/link';
-import useEmblaCarousel from 'embla-carousel-react';
+import Portfolio from '@/components/Portfolio';
 
 export default function Home() {
-  const [emblaRef] = useEmblaCarousel();
   return (
     <>
       <section id="about" className="section-spacing pb-0">
@@ -77,7 +74,7 @@ export default function Home() {
         <div className="container">
           <div className="row  justify-content-center">
             <div className="col-12 col-xl-2  text-xl-start">
-              <div className="h1 display-1 fw-medium text-charcoal">2</div>
+              <div className="h1 display-1 fw-medium text-charcoal">1.5</div>
               <p>Years of Experience</p>
             </div>
             <div className="col-12 col-xl-9 col-xxl-10">
@@ -205,6 +202,7 @@ export default function Home() {
           </div>
         </div>
       </section> */}
+      <Portfolio />
       <section className="section-spacing pb-0">
         <div className="container">
           <div className="row g-4">
@@ -285,7 +283,7 @@ export default function Home() {
         <div className="container">
           <div className="row g-5">
             <div className="col-12 col-xxl-8">
-              <div className="row g-2 g-lg-4 mt-3 mt-lg-1">
+              {/* <div className="row g-2 g-lg-4 mt-3 mt-lg-1">
                 <div className="col-12 col-lg-3 text-lg-end">
                   <div className="dashed-box font-small font-family-secondary fw-medium uppercase">
                     2022 (Jan) - 2022(Dec)
@@ -303,7 +301,7 @@ export default function Home() {
                     Bootstrap and utilize in projects task
                   </p>
                 </div>
-              </div>
+              </div> */}
               <div className="row g-2 g-lg-4 mt-3 mt-lg-1">
                 <div className="col-12 col-lg-3 text-lg-end">
                   <div className="dashed-box font-small font-family-secondary fw-medium uppercase">
@@ -327,7 +325,7 @@ export default function Home() {
               <div className="row g-2 g-lg-4 mt-3 mt-lg-1">
                 <div className="col-12 col-lg-3 text-lg-end">
                   <div className="dashed-box font-small font-family-secondary fw-medium uppercase ">
-                    2024 (January ) - 2023(June)
+                    2024 (January ) - 2024(June)
                   </div>
                 </div>
                 <div className="col-12 col-lg-9">
