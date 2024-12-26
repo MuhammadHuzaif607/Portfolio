@@ -47,6 +47,9 @@ const Header = () => {
             <li className="nav-list-item">
               <Link href="/#services">Services</Link>
             </li>
+            <li className="nav-list-item">
+              <Link href="/#portfolio">Portfolio</Link>
+            </li>
           </ul>
         </nav>
         <div className="header-logo">
