@@ -265,7 +265,7 @@ export default function Home() {
               </div>
               <div className="progress-box mt-4">
                 <div className="h6 font-small uppercase fw-medium">
-                  SQL,NOSQL
+                  Wordpress
                 </div>
                 <div className="animated-progress">
                   <div
