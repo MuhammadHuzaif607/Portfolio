@@ -8,7 +8,7 @@ export default function Home() {
           <div className="row g-4 g-xxl-5">
             <div className="col-12">
               <h1 className="display-3 fw-medium">
-                Hi, I&apos;m Huzaif, a passionate Frontend Developer. I craft
+                Hi, I&apos;m Huzaif, a passionate MERN Developer. I craft
                 responsive, user-friendly websites that bring designs to life.
               </h1>
               <div className="hire-status mt-3">
@@ -22,7 +22,7 @@ export default function Home() {
       <section className="section-spacing pb-0" id="services">
         <div className="container">
           <div className="row g-4 align-items-center">
-            <div className="col-12 col-lg-6 col-xl-4">
+            <div className="col-12 col-lg-6 col-xl-6">
               <div className="bg-lighter border-radius p-4 p-md-5 box-shadow position-relative">
                 <div className="icon-4xl mb-3 mb-lg-4 mb-xl-5">
                   <i className="fa-solid fa-globe"></i>
@@ -38,7 +38,7 @@ export default function Home() {
                 </a> */}
               </div>
             </div>
-            <div className="col-12 col-lg-6 col-xl-4">
+            {/* <div className="col-12 col-lg-6 col-xl-4">
               <div className="bg-lighter border-radius p-4 p-md-5 box-shadow position-relative">
                 <div className="icon-4xl mb-3 mb-lg-4 mb-xl-5">
                   <i className="fa-solid fa-chart-simple"></i>
@@ -46,19 +46,19 @@ export default function Home() {
                 <h5 className="fw-medium line-height-140">
                   Enhancing brand awareness, and generating leads
                 </h5>
-                {/* <a
+                 <a
                   className="button-circle button-corner position-absolute end-0 bottom-0"
                   href="/contact.html"
                 >
                   <i className="bi bi-send"></i>
-                </a> */}
+                </a> 
               </div>
-            </div>
-            <div className="col-12 col-xl-4 align-self-stretch">
+            </div> */}
+            <div className="col-12 col-xl-6 align-self-stretch">
               <div className="bg-theme border-radius p-4 p-md-5 box-shadow h-100 d-flex align-items-center">
                 <div>
                   <div className="h1 display-2 font-family-tertiary fw-semi-bold stroke-text text-fade">
-                    2 Years
+                    1 Years
                   </div>
                   <span className="text-white">
                     enhancing user satisfaction through innovative frontend
@@ -74,7 +74,7 @@ export default function Home() {
         <div className="container">
           <div className="row  justify-content-center">
             <div className="col-12 col-xl-2  text-xl-start">
-              <div className="h1 display-1 fw-medium text-charcoal">1.5</div>
+              <div className="h1 display-1 fw-medium text-charcoal">1</div>
               <p>Years of Experience</p>
             </div>
             <div className="col-12 col-xl-9 col-xxl-10">
