@@ -262,12 +262,12 @@ export default function Home() {
           <div className="row g-5">
             <div className="col-12 col-xxl-8">
               <div className="row g-2 g-lg-4 mt-3 mt-lg-1">
-                <div className="col-12 col-lg-3 text-lg-end">
+                <div className="col-12 col-lg-4 text-lg-end">
                   <div className="dashed-box font-small font-family-secondary fw-medium uppercase">
-                    2022 (JULY) - Current
+                    2025 (JULY) - Current
                   </div>
                 </div>
-                <div className="col-12 col-lg-9">
+                <div className="col-12 col-lg-8">
                   <h4>
                     FULL STACK Developer
                     <span className="fst-italic fw-medium text-lighter-30 ps-2">
@@ -280,16 +280,17 @@ export default function Home() {
                 </div>
               </div>
               <div className="row g-2 g-lg-4 mt-3 mt-lg-1">
-                <div className="col-12 col-lg-3 text-lg-end">
+                <div className="col-12 col-lg-4 text-lg-end">
                   <div className="dashed-box font-small font-family-secondary fw-medium uppercase">
-                    2023 (JULY) - 2023(DECEMBER)
+                   
+                      2024 (January ) - 2024(June)
                   </div>
                 </div>
-                <div className="col-12 col-lg-9">
+                <div className="col-12 col-lg-8">
                   <h4>
                     Front End Developer
                     <span className="fst-italic fw-medium text-lighter-30 ps-2">
-                      @Aykays
+                      @SmartSphere
                     </span>
                   </h4>
                   {/* <p>
@@ -300,16 +301,16 @@ export default function Home() {
                 </div>
               </div>
               <div className="row g-2 g-lg-4 mt-3 mt-lg-1">
-                <div className="col-12 col-lg-3 text-lg-end">
+                <div className="col-12 col-lg-4 text-lg-end">
                   <div className="dashed-box font-small font-family-secondary fw-medium uppercase ">
-                    2024 (January ) - 2024(June)
+                    2023 (OCTOBER) - 2023(JANUARY)
                   </div>
                 </div>
-                <div className="col-12 col-lg-9">
+                <div className="col-12 col-lg-8">
                   <h4>
                     Front-End Developer{' '}
                     <span className="fst-italic fw-medium text-lighter-30 ps-2">
-                      @SmartSphere
+                      @Aykays
                     </span>
                   </h4>
                   {/* <p>
