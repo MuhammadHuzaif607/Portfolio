@@ -8,7 +8,7 @@ export default function Home() {
           <div className="row g-4 g-xxl-5">
             <div className="col-12">
               <h1 className="display-3 fw-medium">
-                Hi, I&apos;m Huzaif, a passionate MERN Developer. I craft
+                Hi, I&apos;m Huzaif, a passionate Full Stack Developer. I craft
                 responsive, user-friendly websites that bring designs to life.
               </h1>
               <div className="hire-status mt-3">
@@ -206,43 +206,21 @@ export default function Home() {
       <section className="section-spacing pb-0">
         <div className="container">
           <div className="row g-4">
-            <div className="col-12 col-lg-4">
-              <div className="progress-box">
-                <div className="h6 font-small uppercase fw-medium">HTML</div>
-                <div className="animated-progress">
-                  <div
-                    data-progress="90"
-                    style={{ width: ' 90%' }}
-                    className="progress-show"
-                  ></div>
-                </div>
-              </div>
-              <div className="progress-box mt-4">
-                <div className="h6 font-small uppercase fw-medium">CSS</div>
-                <div className="animated-progress">
-                  <div
-                    data-progress="85"
-                    style={{ width: ' 85%' }}
-                    className="progress-show"
-                  ></div>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-lg-4">
+            <div className="col-12 col-lg-6">
               <div className="progress-box">
                 <div className="h6 font-small uppercase fw-medium">
                   Javascript
                 </div>
                 <div className="animated-progress">
                   <div
-                    data-progress="80"
-                    style={{ width: ' 80%' }}
+                    data-progress="60"
+                    style={{ width: ' 60%' }}
                     className="progress-show"
                   ></div>
                 </div>
               </div>
               <div className="progress-box mt-4">
-                <div className="h6 font-small uppercase fw-medium">Next Js</div>
+                <div className="h6 font-small uppercase fw-medium">React Js</div>
                 <div className="animated-progress">
                   <div
                     data-progress="70"
@@ -252,9 +230,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-lg-4">
+            <div className="col-12 col-lg-6">
               <div className="progress-box">
-                <div className="h6 font-small uppercase fw-medium">Python</div>
+                <div className="h6 font-small uppercase fw-medium">Typescript</div>
                 <div className="animated-progress">
                   <div
                     data-progress="70"
@@ -265,7 +243,7 @@ export default function Home() {
               </div>
               <div className="progress-box mt-4">
                 <div className="h6 font-small uppercase fw-medium">
-                  Wordpress
+                  Next JS
                 </div>
                 <div className="animated-progress">
                   <div
@@ -283,25 +261,24 @@ export default function Home() {
         <div className="container">
           <div className="row g-5">
             <div className="col-12 col-xxl-8">
-              {/* <div className="row g-2 g-lg-4 mt-3 mt-lg-1">
+              <div className="row g-2 g-lg-4 mt-3 mt-lg-1">
                 <div className="col-12 col-lg-3 text-lg-end">
                   <div className="dashed-box font-small font-family-secondary fw-medium uppercase">
-                    2022 (Jan) - 2022(Dec)
+                    2022 (JULY) - Current
                   </div>
                 </div>
                 <div className="col-12 col-lg-9">
                   <h4>
-                    Front End Developer
+                    FULL STACK Developer
                     <span className="fst-italic fw-medium text-lighter-30 ps-2">
-                      @TechnoTies
+                      @Innova360
                     </span>
                   </h4>
                   <p>
-                    Learned many things like HTML,CSS ,Javascript, Jquery and
-                    Bootstrap and utilize in projects task
+                    
                   </p>
                 </div>
-              </div> */}
+              </div>
               <div className="row g-2 g-lg-4 mt-3 mt-lg-1">
                 <div className="col-12 col-lg-3 text-lg-end">
                   <div className="dashed-box font-small font-family-secondary fw-medium uppercase">
@@ -315,11 +292,11 @@ export default function Home() {
                       @Aykays
                     </span>
                   </h4>
-                  <p>
+                  {/* <p>
                     Proficient in building responsive and user-friendly web
                     interfaces using HTML, CSS, and JavaScript frameworks like
                     React..
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className="row g-2 g-lg-4 mt-3 mt-lg-1">
@@ -332,16 +309,16 @@ export default function Home() {
                   <h4>
                     Front-End Developer{' '}
                     <span className="fst-italic fw-medium text-lighter-30 ps-2">
-                      @Insitech Digital
+                      @SmartSphere
                     </span>
                   </h4>
-                  <p>
+                  {/* <p>
                     Gained expertise in CSS preprocessors (Sass)
                     <br />
                     Adept at using front-end libraries and frameworks
                     (Bootstrap, Tailwind) to create scalable and maintainable
                     designs
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>

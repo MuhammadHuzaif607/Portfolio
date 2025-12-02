@@ -2,7 +2,7 @@
 import useEmblaCarousel from 'embla-carousel-react';
 import Image from 'next/image';
 import { useCallback } from 'react';
-import JS from '../../public/JXS.webp';
+import Dr from '../../public/drivenforgrowth.png';
 import pix from '../../public/pixperfekt.webp';
 import myst from '../../public/mystry-msg.webp';
 
@@ -25,9 +25,9 @@ const Portfolio = () => {
             <div className="embla__container">
               {' '}
               <div className="embla__slide">
-                <a href="https://justinxshaw.com/">
+                <a href="https://drivenforgrowth.co/">
                   <Image
-                    src={JS}
+                    src={Dr}
                     alt="Your image description"
                     layout="responsive"
                     width={16}
