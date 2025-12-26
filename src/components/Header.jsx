@@ -71,6 +71,14 @@ const Header = () => {
                 )}
               </li>
             ))}
+            <li className="nav-list-item mobile-contact-info">
+              <div className="mt-4">
+                <h6 className="mb-2">Phone:</h6>
+                <p className="mb-3">+923122427270</p>
+                <h6 className="mb-2">Email:</h6>
+                <p>mhuzaif523@gmail.com</p>
+              </div>
+            </li>
           </ul>
         </nav>
         <div className="header-logo">
