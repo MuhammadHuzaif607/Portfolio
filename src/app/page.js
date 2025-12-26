@@ -11,9 +11,32 @@ export default function Home() {
                 Hi, I&apos;m Huzaif, a passionate Full Stack Developer. I craft
                 responsive, user-friendly websites that bring designs to life.
               </h1>
-              <div className="hire-status mt-3">
-                <span className="dot-available"></span>
-                Available For Hire
+              <div className="d-flex gap-4 align-items-center">
+                <div className="hire-status">
+                  <span className="dot-available"></span>
+                  Available For Hire
+                </div>
+                <div className="">
+                  <a
+                    href="/assets/pdfs/Muhammad Huzaif.pdf"
+                    download="Muhammad_Huzaif_CV.pdf"
+                    className="btn btn-primary btn-lg"
+                    style={{
+                      backgroundColor: '#fff',
+                      color: '#000',
+                      padding: '11px 23px',
+                      borderRadius: '25px',
+                      textDecoration: 'none',
+                      display: 'inline-block',
+                      fontWeight: '500',
+                      fontSize: '16px',
+                      border: '1px solid #000',
+                    }}
+                  >
+                    <i className="fa-solid fa-download me-2"></i>
+                    Download CV
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -220,7 +243,9 @@ export default function Home() {
                 </div>
               </div>
               <div className="progress-box mt-4">
-                <div className="h6 font-small uppercase fw-medium">React Js</div>
+                <div className="h6 font-small uppercase fw-medium">
+                  React Js
+                </div>
                 <div className="animated-progress">
                   <div
                     data-progress="70"
@@ -232,7 +257,9 @@ export default function Home() {
             </div>
             <div className="col-12 col-lg-6">
               <div className="progress-box">
-                <div className="h6 font-small uppercase fw-medium">Typescript</div>
+                <div className="h6 font-small uppercase fw-medium">
+                  Typescript
+                </div>
                 <div className="animated-progress">
                   <div
                     data-progress="70"
@@ -242,9 +269,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="progress-box mt-4">
-                <div className="h6 font-small uppercase fw-medium">
-                  Next JS
-                </div>
+                <div className="h6 font-small uppercase fw-medium">Next JS</div>
                 <div className="animated-progress">
                   <div
                     data-progress="70"
@@ -274,16 +299,13 @@ export default function Home() {
                       @Innova360
                     </span>
                   </h4>
-                  <p>
-                    
-                  </p>
+                  <p></p>
                 </div>
               </div>
               <div className="row g-2 g-lg-4 mt-3 mt-lg-1">
                 <div className="col-12 col-lg-4 text-lg-end">
                   <div className="dashed-box font-small font-family-secondary fw-medium uppercase">
-                   
-                      2024 (January ) - 2024(June)
+                    2024 (January ) - 2024(June)
                   </div>
                 </div>
                 <div className="col-12 col-lg-8">

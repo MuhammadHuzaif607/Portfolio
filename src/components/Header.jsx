@@ -19,6 +19,11 @@ const Header = () => {
       title: 'Portfolio',
       path: '#portfolio',
     },
+    {
+      title: 'Download CV',
+      path: '/assets/pdfs/Muhammad Huzaif.pdf',
+      download: true,
+    },
   ];
 
   //   For desktop function
@@ -57,7 +62,13 @@ const Header = () => {
           <ul className={'nav-list ' + (isMobileMenu ? 'show' : '')}>
             {links.map((item, index) => (
               <li className="nav-list-item" key={index}>
-                <Link href={item.path}>{item.title}</Link>
+                {item.download ? (
+                  <a href={item.path} download="Muhammad_Huzaif_CV.pdf">
+                    {item.title}
+                  </a>
+                ) : (
+                  <Link href={item.path}>{item.title}</Link>
+                )}
               </li>
             ))}
           </ul>
