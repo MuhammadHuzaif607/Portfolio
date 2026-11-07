@@ -19,7 +19,7 @@ export default function Home() {
                 <div className="">
                   <a
                     href="/assets/pdfs/Muhammad Huzaif.pdf"
-                    download="Muhammad_Huzaif_CV.pdf"
+                    download="Muhammad_Huzaif.pdf"
                     className="btn btn-primary btn-lg"
                     style={{
                       backgroundColor: '#fff',
@@ -81,7 +81,7 @@ export default function Home() {
               <div className="bg-theme border-radius p-4 p-md-5 box-shadow h-100 d-flex align-items-center">
                 <div>
                   <div className="h1 display-2 font-family-tertiary fw-semi-bold stroke-text text-fade">
-                    1 Years
+                    1.5 Years
                   </div>
                   <span className="text-white">
                     enhancing user satisfaction through innovative frontend
@@ -97,7 +97,7 @@ export default function Home() {
         <div className="container">
           <div className="row  justify-content-center">
             <div className="col-12 col-xl-2  text-xl-start">
-              <div className="h1 display-1 fw-medium text-charcoal">1</div>
+              <div className="h1 display-1 fw-medium text-charcoal">1.5</div>
               <p>Years of Experience</p>
             </div>
             <div className="col-12 col-xl-9 col-xxl-10">
@@ -288,29 +288,43 @@ export default function Home() {
             <div className="col-12 col-xxl-8">
               <div className="row g-2 g-lg-4 mt-3 mt-lg-1">
                 <div className="col-12 col-lg-4 text-lg-end">
-                  <div className="dashed-box font-small font-family-secondary fw-medium uppercase">
-                    2025 (JULY) - Current
+                  <div className="dashed-box font-small font-family-secondary fw-medium uppercase ">
+                    2025 (DECEMBER) - 2023 (OCTOBER)
                   </div>
                 </div>
                 <div className="col-12 col-lg-8">
                   <h4>
-                    FULL STACK Developer
+                    Full Stack Developer{' '}
                     <span className="fst-italic fw-medium text-lighter-30 ps-2">
-                      @Innova360
+                      @Fifth Thought
                     </span>
                   </h4>
-                  <p></p>
                 </div>
               </div>
               <div className="row g-2 g-lg-4 mt-3 mt-lg-1">
                 <div className="col-12 col-lg-4 text-lg-end">
                   <div className="dashed-box font-small font-family-secondary fw-medium uppercase">
-                    2024 (January ) - 2024(June)
+                    2025 (JULY) - 2025 (DECEMBER)
                   </div>
                 </div>
                 <div className="col-12 col-lg-8">
                   <h4>
-                    Front End Developer
+                    Full Stack Developer
+                    <span className="fst-italic fw-medium text-lighter-30 ps-2">
+                      @Innova360
+                    </span>
+                  </h4>
+                </div>
+              </div>
+              <div className="row g-2 g-lg-4 mt-3 mt-lg-1">
+                <div className="col-12 col-lg-4 text-lg-end">
+                  <div className="dashed-box font-small font-family-secondary fw-medium uppercase">
+                    2025 (January ) - 2025 (June)
+                  </div>
+                </div>
+                <div className="col-12 col-lg-8">
+                  <h4>
+                    Full Stack Developer (Internship)
                     <span className="fst-italic fw-medium text-lighter-30 ps-2">
                       @SmartSphere
                     </span>
@@ -319,28 +333,6 @@ export default function Home() {
                     Proficient in building responsive and user-friendly web
                     interfaces using HTML, CSS, and JavaScript frameworks like
                     React..
-                  </p> */}
-                </div>
-              </div>
-              <div className="row g-2 g-lg-4 mt-3 mt-lg-1">
-                <div className="col-12 col-lg-4 text-lg-end">
-                  <div className="dashed-box font-small font-family-secondary fw-medium uppercase ">
-                    2023 (OCTOBER) - 2023(JANUARY)
-                  </div>
-                </div>
-                <div className="col-12 col-lg-8">
-                  <h4>
-                    Front-End Developer{' '}
-                    <span className="fst-italic fw-medium text-lighter-30 ps-2">
-                      @Aykays
-                    </span>
-                  </h4>
-                  {/* <p>
-                    Gained expertise in CSS preprocessors (Sass)
-                    <br />
-                    Adept at using front-end libraries and frameworks
-                    (Bootstrap, Tailwind) to create scalable and maintainable
-                    designs
                   </p> */}
                 </div>
               </div>

@@ -63,7 +63,7 @@ const Header = () => {
             {links.map((item, index) => (
               <li className="nav-list-item" key={index}>
                 {item.download ? (
-                  <a href={item.path} download="Muhammad_Huzaif_CV.pdf">
+                  <a href={item.path} download="Muhammad_Huzaif.pdf">
                     {item.title}
                   </a>
                 ) : (
@@ -71,14 +71,14 @@ const Header = () => {
                 )}
               </li>
             ))}
-            <li className="nav-list-item mobile-contact-info">
+            {/* <li className="nav-list-item mobile-contact-info">
               <div className="mt-4">
                 <h6 className="mb-2">Phone:</h6>
                 <p className="mb-3">+923122427270</p>
                 <h6 className="mb-2">Email:</h6>
                 <p>mhuzaif523@gmail.com</p>
               </div>
-            </li>
+            </li> */}
           </ul>
         </nav>
         <div className="header-logo">

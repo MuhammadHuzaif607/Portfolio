@@ -2,9 +2,9 @@
 import useEmblaCarousel from 'embla-carousel-react';
 import Image from 'next/image';
 import { useCallback } from 'react';
-import Dr from '../../public/drivenforgrowth.png';
+import Dr from '../../public/drivenforgrowth.webp';
 import pix from '../../public/pixperfekt.webp';
-import myst from '../../public/mystry-msg.webp';
+// import myst from '../../public/mystry-msg.webp';
 
 const Portfolio = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel();
@@ -46,7 +46,7 @@ const Portfolio = () => {
                   />
                 </a>
               </div>
-              <div className="embla__slide">
+              {/* <div className="embla__slide">
                 <a href="https://mystery-msg-liart.vercel.app">
                   <Image
                     src={myst}
@@ -56,10 +56,10 @@ const Portfolio = () => {
                     height={9} // Adjust this for different aspect ratios
                   />
                 </a>
-              </div>{' '}
+              </div>{' '} */}
             </div>
           </div>
-          <button
+          {/* <button
             className="embla__prev nav-btn button-circle-gradient"
             onClick={scrollPrev}
           >
@@ -70,7 +70,7 @@ const Portfolio = () => {
             onClick={scrollNext}
           >
             <i className="fa fa-caret-right" aria-hidden="true"></i>
-          </button>
+          </button> */}
         </div>
       </div>
     </section>
